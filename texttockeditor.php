@@ -156,6 +156,7 @@ function texttockeditor_civicrm_buildForm($formName, $form) {
     'CRM_Event_Form_ManageEvent_EventInfo' => ['summary', 'event_full_text'],
     'CRM_Member_Form_Membership' => ['receipt_text'],
     'CRM_Event_Form_Participant' => ['receipt_text'],
+    'CRM_Campaign_Form_Campaign' => ['description'],
   ];
 
   if (!empty($elementArray[$formName])) {
